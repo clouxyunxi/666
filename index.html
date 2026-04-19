@@ -1,0 +1,34 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="c.ico">
+    <title>云羲_clouX-主页</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        h1 {
+            font-size: 60px;
+            transition: color 0.5s ease;
+        }
+    </style>
+    <script>
+        function changeColor() {
+            const h1 = document.querySelector('h1');
+            const colors = ['#FF0000', '#00FF00', '#0000FF', '#FFFF00', '#FF00FF', '#00FFFF'];
+            const randomColor = colors[Math.floor(Math.random() * colors.length)];
+            h1.style.color = randomColor;
+        }
+        setInterval(changeColor, 300);
+    </script>
+</head>
+
+<body>
+    <center>
+        <p><img src="sye.jpg" width="600" height="600"></p>
+        <h1>孙阳儿牛逼666</h1>
+        <h4 style="color: rgb(255, 255, 255);">点击<a href="https://www.douyin.com/user/MS4wLjABAAAAg2v5dBAkIOS3i122zJ2B1xcONgY3Nrbpr8yVebwQuGxeXFvW39QRR6fQoiTK4HVF?from_tab_name=main">此处</a>前往孙阳儿抖音主页</h4>
+        <br>
+        <p style="color: rgb(255, 255, 255);">网页由<a href="https://yunxi.js.cool">云羲_clouX</a>制作</p>
+    </center>
+</body>
